@@ -55,9 +55,9 @@ For the Ye et al. (2025) heat-patch style, use rectangular containers for proced
 - For microscopy, photographs, heatmaps, molecular renderings, or dense plotted data, explain that the live API currently focuses on editable draw.io primitives. Add a dedicated live image-insertion operation before attempting hybrid figures; do not silently fall back to XML-first construction.
 - If a reference is ambiguous or too low-resolution to read, state the uncertain labels/elements instead of inventing them.
 
-## Default black--red visual system
+## Black--red house style
 
-Apply this house style when creating a new figure or when the user asks to adapt a reference rather than reproduce its palette exactly:
+Use this palette when the project uses the black--red house style. For new frameworks, first choose the composition and emphasis with compose-hybrid-scientific-figures. For close replicas retain the reference palette where it preserves scientific meaning.
 
 - canvas `#FFFFFF`; primary text and structural strokes `#111111`; neutral rules `#D9D9D9`;
 - deep red `#B5122B` for thesis-bearing nodes and labels; active red `#D92E4E` for selected states or directional emphasis; pale red `#F8DDE3` for low-opacity scope fields;

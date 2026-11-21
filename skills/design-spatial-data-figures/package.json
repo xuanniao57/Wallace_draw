@@ -1,0 +1,7 @@
+{
+  "name": "wallace-spatial-figure-example",
+  "private": true,
+  "type": "module",
+  "scripts": {"render": "node scripts/census-plate.mjs"},
+  "dependencies": {"d3": "7.9.0", "topojson-client": "3.1.0", "us-atlas": "3.0.1"}
+}

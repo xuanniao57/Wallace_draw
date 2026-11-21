@@ -14,7 +14,7 @@ The dominant evidence should occupy more area than explanatory text. A reader sh
 
 ## Panels
 
-- Use three to six outer panels for the major scientific stages.
+- Group only stages the reader needs to distinguish; a single transformation can occupy a single field.
 - Place the step title directly at the upper-left of each panel.
 - Use one thin neutral border or whitespace separation; do not place every internal item in another card.
 - Align image edges and baselines across adjacent panels.
@@ -26,7 +26,7 @@ The dominant evidence should occupy more area than explanatory text. A reader sh
 - Use sentence case for descriptions and consistent title case for step headings.
 - Keep internal labels short; move detailed explanation to the caption.
 - Avoid light-grey explanatory sentences, rotated labels, and text embedded at unreadable raster resolution.
-- At final manuscript size, keep ordinary labels at least 7 pt and major labels at least 8--9 pt unless the venue requires more.
+- Set the figure at its actual manuscript width. Follow the project or venue typography; increase small labels and remove detail until the printed figure is readable.
 
 ## Connectors
 
@@ -38,7 +38,7 @@ The dominant evidence should occupy more area than explanatory text. A reader sh
 
 ## Color
 
-- Default to a white canvas, near-black text and structure, and one red family for emphasis. A practical starting set is `#111111` (ink), `#B5122B` (deep red), `#D92E4E` (active red), `#F8DDE3` (pale red field), `#D9D9D9` (neutral rule), and `#FFFFFF` (canvas).
+- For the black--red house style, use a white canvas, near-black text and one red family for emphasis. A practical starting set is `#111111` (ink), `#B5122B` (deep red), `#D92E4E` (active red), `#F8DDE3` (pale red field), `#D9D9D9` (neutral rule), and `#FFFFFF` (canvas).
 - Use black for titles, body labels, axes, ordinary arrows, boundaries, and the main reading order. Use red for the paper's thesis: focal nodes, selected states, comparison bridges, heat/intensity, or the final decision layer. Use pale red as an area field, not as a default card background.
 - As a heuristic, let white/neutral space dominate, keep black as the structural layer, and limit saturated red to a small fraction of the canvas. If everything is red, nothing is focal.
 - Reserve auxiliary color for information that cannot be encoded honestly in black/red alone: multi-class maps, signed diverging values, categorical clusters, or source imagery. Keep those colors muted and inside the empirical inset; retain black/red for the surrounding narrative shell.

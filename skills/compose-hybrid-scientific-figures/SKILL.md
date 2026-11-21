@@ -14,15 +14,15 @@ Build a visual scientific argument, not a decorated flowchart. Let real analytic
 - Use AI illustration only for abstract constructs without a direct empirical representation. Never replace measured evidence with invented imagery.
 - Use Draw.io, Figma, or SVG for outer panels, short step titles, arrows, icons, branch/merge logic, and alignment.
 - Keep text directly on the canvas when possible. Avoid nested cards, pills, shaded explanation boxes, and micro-text.
-- Unless the user or scientific encoding requires another scheme, use a black--red visual voice: white canvas, near-black typography and structural lines, one deep red accent, and pale red tints for focal regions. Red carries the scientific thesis or selected comparison; it is not a general decoration color.
-- Keep auxiliary hues local to empirical graphics that need categorical, divergent, or image-native color. Mute them, explain them in a legend, and prevent them from competing with the black--red narrative layer.
+- For an approved black--red project or when a single focal selection carries the thesis, use a white canvas, near-black typography and structural lines, one deep red accent, and pale red tints for focal regions. Red carries the scientific thesis or selected comparison; it is not a general decoration color.
+- Keep auxiliary hues local to empirical graphics that need categorical, divergent, or image-native color. Mute them, explain them in a legend, and prevent them from competing with the surrounding narrative layer.
 - Deliver an editable master plus publication exports. Do not flatten the entire figure into a screenshot.
 
 ## Workflow
 
 ### 1. Fix the visual argument
 
-Write one sentence that states what the reader should understand after seeing the figure. Convert it into three to six ordered steps. Each step must answer one question and have one dominant visual.
+Write one sentence that states what the reader should understand after seeing the figure. For an original framework, read [original-framework.md](references/original-framework.md). Choose a layout from the actual dependencies, decisions or spatial relationships. For a purely quantitative results plate, use design-spatial-data-figures and start with a plot of the observations.
 
 Choose the final use before composing:
 
@@ -47,19 +47,13 @@ Do not compose until the following are known:
 
 ### 3. Build an evidence-led storyboard
 
-For this user's new or substantially redesigned scientific figures, generate an image-model mockup before vector assembly. Use the available built-in image-generation tool; retain its prompt and output. Inspect the mockup, then identify which illustrations to crop, which elements to rebuild as editable vectors, and which evidence slots require real maps, code, tables or charts. Do not replace this step with a text-only storyboard unless the user asks to skip image generation. Small label corrections to an approved figure do not need a new mockup.
+For new or substantially redesigned conceptual frameworks and mixed method illustrations, generate an image-model mockup before vector assembly. Use the available built-in image-generation tool; retain its prompt and output. Inspect the mockup, then identify which illustrations to crop, which elements to rebuild as editable vectors, and which evidence slots require real maps, code, tables or charts. Do not replace this step with a text-only storyboard unless the user asks to skip image generation. Small label corrections to an approved figure do not need a new mockup.
 
 Make relationships visible through concrete objects and actions. For review/provenance figures, show selected tree nodes, attached evidence, highlighted discrepancies and review records connected to their targets. Do not turn the final panel into paragraph boxes. Generated analytical plots and interface states are layout placeholders, never empirical evidence; replace them with sourced material during assembly.
 
-Assign each step:
+Give each visual a short title and a specific object to follow. Draw only the real incoming, outgoing or feedback relations; sources, endpoints, branches and merges have different degrees. When two results are compared directly, aligned positions can carry the relationship without arrows.
 
-1. a short action title;
-2. one dominant empirical visual;
-3. at most two supporting thumbnails, icons, or formulas;
-4. one incoming and one outgoing relationship;
-5. an optional branch, comparison, or human checkpoint.
-
-Read `references/composition-grammar.md` for layout, typography, panel, connector, and color rules. Use the pattern library there rather than inventing a dense dashboard. When the user requests black/red styling or provides a strong journal-figure reference, also read `references/black-red-evidence-language.md` and adapt its grammar without copying article-specific content.
+Read `references/composition-grammar.md` for layout, typography, panel, connector, and color rules. Use the pattern that matches the research claim. When the user requests black/red styling or the chosen reference uses this system, also read `references/black-red-evidence-language.md` and adapt its grammar without copying article-specific content.
 
 When the user asks to reproduce a reference figure's layout closely, switch to **reference-replication mode** and read `references/reference-layout-replication.md`. For the Ye et al. (2025) heat-patch visual system, also read `references/ye-2025-layout-reconstruction.md`. Match layout, spacing, hierarchy, and geometry; replace scientific content with the user's or clearly labeled local placeholder data.
 
@@ -78,7 +72,7 @@ Retain the original source or script for every empirical image. Do not redraw a 
 
 ### 5. Compose the editable master
 
-Create the outer step frames first. Add direct step titles, then place evidence images, then add only the connectors needed to explain transformation or choice.
+Set the relative sizes and reading order of the main objects first. Use a frame only where grouping would otherwise be ambiguous. Place evidence and direct labels, then connect the actual transformations and decisions.
 
 If a live Draw.io workflow is available, also use the `recreate-scientific-figure-in-drawio` skill and construct editable geometry on the visible canvas. Otherwise compose an editable `.drawio`, SVG, or Figma master while preserving text and connectors as vector elements.
 

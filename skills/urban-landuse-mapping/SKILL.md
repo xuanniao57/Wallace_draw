@@ -53,7 +53,7 @@ Repeat `--admin-name` or pass comma-separated names. The renderer reprojects the
 
 ## Graphic shell and color discipline
 
-Use a white, black, and red narrative shell unless the user supplies another house style:
+For a black--red manuscript, apply the following treatment when assembling the plate. For a standalone planning map, retain recognizable land-use classes. For an original multi-panel result, use design-spatial-data-figures to choose the composition:
 
 - white canvas; near-black titles, labels, administrative outlines, axes, scale bar, and north arrow;
 - deep red for the study focus, selected boundary, representative locations, comparison annotation, or main planning takeaway;
