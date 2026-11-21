@@ -1,0 +1,4 @@
+interface:
+  display_name: "Urban Land-Use Mapping"
+  short_description: "Create reusable planning land-use maps and structure charts."
+  default_prompt: "Use $urban-landuse-mapping to create a planning-ready land-use current-status map and structure charts from this GeoJSON."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hybrid Scientific Figures"
+  short_description: "Compose clean, evidence-led scientific framework figures"
+  default_prompt: "Use $compose-hybrid-scientific-figures to turn my maps, charts, screenshots, imagery, and method logic into a clean publication-ready framework figure."
